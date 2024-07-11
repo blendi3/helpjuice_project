@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notion Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="breadcrumb">
+        <a href="#">Main</a> / <a href="#">Getting started</a> / Front-end
+        developer test project
+      </div>
+      <div class="toolbar">
+        <div class="editingIcon">
+          <i class="bx bx-lock-open-alt"></i>
+          <span class="editing">Editing</span>
+        </div>
+        <div class="publish-space">
+          <span>Publish Space</span>
+          <i class="bx bx-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="status-bar">
+        <div class="first-bar">
+          <span>P</span>
+          <span><i class="bx bx-time"></i>0min</span>
+          <span><i class="bx bx-left-down-arrow-circle"></i>0</span>
+        </div>
+        <div>
+          <i class="bx bx-cloud"></i>
+          <i class="bx bx-dots-vertical-rounded"></i>
+        </div>
+      </div>
+      <h1 class="header">Front-end developer test project</h1>
+      <p class="Intro">
+        This page is a clone of a Notion page, focusing solely on the
+        functionality of heading one text. You can create a heading one text by
+        typing `/` followed by `1`, then typing your text and hitting enter.
+        This will save your input as a Heading 1.
+      </p>
+      <div id="root" class="Page"></div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
